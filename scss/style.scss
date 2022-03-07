@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+@import "_header";
+@import "_nav";
+@import "_container";
+@import "_footer";
+
+body{
+    background-image: url(../img/cavern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+.imgpago
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 10px;
+.imgpago
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 10px;
+}
+}
+main{
+    .titlecontainer{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family:'Amatic SC', cursive;
+        font-size: 35px;}
+}

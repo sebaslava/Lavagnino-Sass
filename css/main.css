@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 170px; }
+  header .headerH5 {
+    text-align: center;
+    color: white; }
+  header h1 {
+    color: white;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    margin-left: 10px; }
+  header .search .input {
+    height: 30px;
+    border-radius: 30px;
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 5px; }
+
+.nav {
+  background-color: black;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  height: 100px;
+  width: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  .nav img {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 7px; }
+  .nav h4 {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-style: oblique;
+    margin-left: 5px; }
+  .nav ul {
+    margin-left: 400px;
+    margin-bottom: 60px;
+    margin-top: -50px; }
+    .nav ul li {
+      display: inline-block; }
+    .nav ul a {
+      list-style: none;
+      text-decoration: none;
+      margin-right: 30px;
+      color: white;
+      padding: 5px; }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .container div {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    padding-top: 10px; }
+    .container div img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px; }
+    .container div p {
+      color: white;
+      text-align: center; }
+
+.footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap; }
+  .footer img {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+
+body {
+  background-image: url(../img/cavern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.imgpago {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px; }
+  .imgpago .imgpago {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px; }
+
+main .titlecontainer {
+  color: white;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px; }
