@@ -1,4 +1,6 @@
 $fondonegro: black;
+$letrablanca:rgb(255, 255, 255);
+
 
 .nav{
     background-color: $fondonegro;    
@@ -16,8 +18,8 @@ $fondonegro: black;
     margin-left: 50px;
     margin-top: 7px;}
     .nav__title{
-    color:rgb(255, 255, 255);
     font-family: 'Amatic SC', cursive;
+    color: $letrablanca;
     font-style: oblique;
     margin-left: 5px;}
     .nav__links{	
@@ -28,9 +30,9 @@ $fondonegro: black;
         display: inline-block;}
         .nav__link{
         list-style: none;
+        color: $letrablanca;
         text-decoration: none;
-        margin-right:30px;
-        color: rgb(255, 255, 255); 
+        margin-right:30px; 
         padding: 5px;}
     }
 }

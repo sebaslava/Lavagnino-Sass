@@ -36,8 +36,8 @@ header {
     margin-left: 50px;
     margin-top: 7px; }
   .nav .nav__title {
-    color: white;
     font-family: 'Amatic SC', cursive;
+    color: white;
     font-style: oblique;
     margin-left: 5px; }
   .nav .nav__links {
@@ -48,9 +48,9 @@ header {
       display: inline-block; }
     .nav .nav__links .nav__link {
       list-style: none;
+      color: white;
       text-decoration: none;
       margin-right: 30px;
-      color: white;
       padding: 5px; }
 
 .container {
