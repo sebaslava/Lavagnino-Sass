@@ -10,8 +10,8 @@ header {
     color: white; }
   header h1 {
     color: white;
+    font-family: "Amatic SC", cursive;
     text-align: left;
-    font-family: 'Amatic SC', cursive;
     font-size: 60px;
     margin-left: 10px; }
   header .search .input {

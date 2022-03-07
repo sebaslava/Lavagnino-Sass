@@ -1,6 +1,7 @@
-.nav
-{   
-    background-color: black;    
+$fondonegro: black;
+
+.nav{
+    background-color: $fondonegro;    
     font-family: 'Cutive Mono', monospace;
     font-size: 20px;
     height: 100px;
