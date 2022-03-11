@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
  }
-@import "_header";
-@import "_nav";
-@import "_container";
-@import "_footer";
+
+    @import "variables";
+    @import "_header";
+    @import "_nav";
+    @import "_container";
+    @import "_footer";
+
 
 body{
     background-image: url(../img/cavern.jpg);
@@ -19,6 +22,8 @@ body{
     justify-content:center;
     margin-top: 10px;
 }
+    .imgbancos:hover{transform: scale(1.1) ;}
+    .imgbancos{transition: 0.7s ease;}
 main{
     .titlecontainer{
         color: rgb(255, 255, 255);

@@ -1,9 +1,5 @@
-$fondonegro: black;
-$letrablanca:rgb(255, 255, 255);
-
-
 .nav{
-    background-color: $fondonegro;    
+    background-color: $fondonegro;
     font-family: 'Cutive Mono', monospace;
     font-size: 20px;
     height: 100px;
@@ -18,8 +14,8 @@ $letrablanca:rgb(255, 255, 255);
     margin-left: 50px;
     margin-top: 7px;}
     .nav__title{
+    color: $white;
     font-family: 'Amatic SC', cursive;
-    color: $letrablanca;
     font-style: oblique;
     margin-left: 5px;}
     .nav__links{	
@@ -27,12 +23,16 @@ $letrablanca:rgb(255, 255, 255);
         margin-bottom: 60px;
         margin-top: -50px; 
         .nav__item{
-        display: inline-block;}
+        display: inline-block;
+        transition: all 0.5s ease;
+            &:hover{transform: scale(1.1);}
+    }
         .nav__link{
+        color: $white;
         list-style: none;
-        color: $letrablanca;
         text-decoration: none;
         margin-right:30px; 
-        padding: 5px;}
+        padding: 5px;
+    }
     }
 }

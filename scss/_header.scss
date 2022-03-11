@@ -1,13 +1,12 @@
-$white: rgb(255, 255, 255);
-$fuente: 'Amatic SC', cursive;
-
 header
 {
     height: 170px;
     .headerH5
 {
+    background-color: $fondonegro;
+    font-size: 20px;
     text-align: center;   
-    color: rgb(255, 255, 255);
+    color: $white;
 }
 h1
 {
